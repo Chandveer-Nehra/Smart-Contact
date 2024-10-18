@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org"
+      th:replace="base::layout(~{::section})">
+<head>
+    <meta charset="UTF-8" />
+    <title>About - Smart Contact Manager</title>
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    
+</head>
+<body>
+    <section class="about-section text-center">
+        <div class="container">
+            <h1 class="mb-4">About Smart Contact Manager</h1>
+            <h4 class="mb-4">Efficiently manage and organize your contacts</h4>
+            <img th:src="@{/img/aboutus.png}" alt="Smart Contact Manager" class="about-image mb-4">
+            <p class="lead">
+                Smart Contact Manager is a web-based application developed using Spring Boot, designed to efficiently manage and organize contacts. This application provides users with the ability to create, view, update, and delete contact information.
+            </p>
+            <ul class="list-unstyled lead">
+                <li><strong>Web-based application</strong>: Manage and organize contacts.</li>
+                <li><strong>User Authentication</strong>: Secure login and registration.</li>
+                <li><strong>Role-based Access Control</strong>: Different permissions for users and admins.</li>
+                <li><strong>CRUD Operations</strong>: Create, Read, Update, and Delete contacts.</li>
+                <li><strong>Responsive UI</strong>: User-friendly interface.</li>
+                <li><strong>Backend Integration</strong>: Typically uses MySQL for data storage.</li>
+                <li><strong>Scalability and Maintainability</strong>: Facilitated by Spring Boot.</li>
+                <li><strong>Ideal for</strong>: Personal use and small businesses.</li>
+            </ul>
+        </div>
+    </section>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
+ 
+has context menu
